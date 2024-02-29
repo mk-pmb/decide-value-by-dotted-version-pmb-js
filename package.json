@@ -1,0 +1,37 @@
+{ "name": "decide-value-by-dotted-version-pmb",
+  "version": "0.0.1",
+  "description": "Trying to save you from coding lots of version number conditions.",
+  "keywords": [],
+
+  "author": "M.K. (https://github.com/mk-pmb)",
+  "homepage": "https://github.com/mk-pmb/decide-value-by-dotted-version-pmb-js/#readme",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mk-pmb/decide-value-by-dotted-version-pmb-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/mk-pmb/decide-value-by-dotted-version-pmb-js/issues"
+  },
+  "contributors": [],
+
+  "private": false, "license": "ISC",
+
+  "main": "byver.js",
+  "scripts": { "test": "elp && nodemjs test/all.mjs" },
+  "directories": { "test": "test" },
+  "eslintConfig": { "extends": "nodejs-pmb" },
+
+  "dependencies": {},
+  "devDependencies": {
+    "eslint-config-nodejs-pmb": "^0.3.5",
+    "eslint-plugin-json-light-pmb": "^1.0.7",
+    "eslint-plugin-n": "^15.2.4",
+    "eslint-pretty-pmb": "^1.0.5",
+    "nodemjs": "^0.1.14",
+    "p-fatal": "^0.1.5",
+    "usnam-pmb": "^0.2.5"
+  },
+
+
+  "engines": { "npm": ">=6.0.0", "node": ">=8.0.0" }
+}
